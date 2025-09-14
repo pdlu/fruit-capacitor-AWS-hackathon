@@ -39,68 +39,74 @@ Clone the repository:
 ```bash
 git clone <your-repo-url>
 cd fruits-capacitor
-
+```
 
 Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 Set up AWS credentials:
-aws configure
+```aws configure```
 
 or use .env:
-
+```
 AWS_ACCESS_KEY_ID=your_access_key  
 AWS_SECRET_ACCESS_KEY=your_secret_key  
 AWS_DEFAULT_REGION=us-west-2  
+```
 
 Enable AWS Bedrock models in the console:
-
-    amazon.titan-embed-image-v1 (for embeddings)
-
-    us.amazon.nova-micro-v1:0 (for Q&A)
+```
+amazon.titan-embed-image-v1 (for embeddings)
+us.amazon.nova-micro-v1:0 (for Q&A)
+```
 
 Run the application:
-
+```
 streamlit run app.py
+```
 
-Open your browser at http://localhost:8501
-📖 Usage Guide
+Open your browser at `http://localhost:8501`
 
-    Upload Fruit Images
+## 📖 Usage Guide
 
-        Navigate to the 📤 Upload Files tab
+### Upload Fruit Images
 
-        Upload .jpg or .png fruit images
+1. Navigate to the 📤 Upload Files tab
 
-        Re-index knowledgebase to process embeddings
+2. Upload .jpg or .png fruit images
 
-    Ask Ripeness Questions
+3. Re-index knowledgebase to process embeddings
 
-        Use the 💬 Ask Questions tab
+4. Ask Ripeness Questions
 
-        Enter natural language questions (e.g., “How many days until this banana spoils?”)
+5. Use the 💬 Ask Questions tab
 
-        Receive AI-powered predictions with source explanations
+6. Enter natural language questions (e.g., “How many days until this banana spoils?”)
 
-    Manage Knowledgebase
+7. Receive AI-powered predictions with source explanations
 
-        Delete or re-index fruit data to refresh your database
+### Manage Knowledgebase
 
-🔧 Configuration
+Delete or re-index fruit data to refresh your database
 
-Update constants in app.py:
+### 🔧 Configuration
 
+Update constants in `app.py`:
+```python
 AWS_BEDROCK_EMBEDDING_MODEL_ID = "amazon.titan-embed-image-v1"
 AWS_BEDROCK_LLM_MODEL_ID = "us.amazon.nova-micro-v1:0"
 AWS_REGION = "us-west-2"
 
 chunk_size = 500
 chunk_overlap = 50
+```
 
-📦 Dependencies
+### 📦 Dependencies
 
-requirements.txt:
-
+`requirements.txt:`
+```shell
 streamlit>=1.28.0
 langchain>=0.1.0
 langchain-community>=0.0.10
@@ -108,28 +114,27 @@ boto3>=1.34.0
 chromadb>=0.4.0
 Pillow>=10.0.0
 python-dotenv>=1.0.0
+```
 
-🛠️ How It Works
+### 🛠️ How It Works
 
-Image Processing
+#### Image Processing
 
-    Image-to-Text: Fruit images are converted into textual descriptions using ChatGPT
+* Image-to-Text: Fruit images are converted into textual descriptions using ChatGPT
+* Embedding: Text is vectorized using AWS Bedrock Titan
+* Storage: Vectors stored in ChromaDB for fast semantic search
 
-    Embedding: Text is vectorized using AWS Bedrock Titan
+#### Ripeness Question Answering
 
-    Storage: Vectors stored in ChromaDB for fast semantic search
+1. User queries are vectorized
 
-Ripeness Question Answering
+2. Relevant fruit data chunks retrieved from ChromaDB
 
-    User queries are vectorized
+3. Context passed to AWS Bedrock LLM
 
-    Relevant fruit data chunks retrieved from ChromaDB
+4.  Model generates ripeness prediction + sources
 
-    Context passed to AWS Bedrock LLM
-
-    Model generates ripeness prediction + sources
-
-🔒 Security Notes
+### 🔒 Security Notes
 
     Documents/images processed locally before cloud inference
 
@@ -137,7 +142,7 @@ Ripeness Question Answering
 
     Consider data sensitivity when uploading real-world datasets
 
-🚀 Deployment Options
+### 🚀 Deployment Options
 
     Local Development: Run with Streamlit
 
@@ -145,7 +150,7 @@ Ripeness Question Answering
 
     Docker: Containerize and deploy
 
-Example Dockerfile:
+### Example Dockerfile:
 
 FROM python:3.9-slim
 WORKDIR /app
@@ -155,7 +160,7 @@ COPY . .
 EXPOSE 8501
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 
     AWS Bedrock for embeddings + LLMs
 
