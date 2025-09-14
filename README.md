@@ -20,19 +20,20 @@ An **AI-powered fruit ripeness detection system** that classifies fruit images (
 ```mermaid
 flowchart TD
 
-    A[Fruit Image<br/>(Strawberry / Avocado)] --> B[Image-to-Text<br/>(ChatGPT)]
+    A[Fruit Image\n(Strawberry / Avocado)] --> B[Image-to-Text\n(ChatGPT)]
     B --> C[Text Extraction + Chunking]
-    C --> D[Vector Embeddings<br/>(AWS Bedrock)]
+    C --> D[Vector Embeddings\n(AWS Bedrock)]
     D --> E[ChromaDB]
 
     E --> F[Similarity Search]
     F --> G[Relevant Chunks]
-    G --> H[AWS Bedrock LLM<br/>(RAG)]
+    G --> H[AWS Bedrock LLM\n(RAG)]
     H --> I[Answer + Sources]
 
     subgraph User Interaction
         J[User Question] --> F
     end
+
 
 ```
 
