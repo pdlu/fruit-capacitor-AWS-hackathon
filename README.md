@@ -17,10 +17,23 @@ An **AI-powered fruit ripeness detection system** that classifies fruit images (
 ---
 
 ## 🏗️ Architecture  
-```
-Fruit Image (Strawberry/Avocado) → Image-to-Text (ChatGPT) → Text Extraction + Chunking → Vector Embeddings (AWS Bedrock) → ChromaDB
-                                                                                                                            ↓
-                                        User Question → Similarity Search → Relevant Chunks → AWS Bedrock LLM (RAG) → Answer + Sources
+```mermaid
+flowchart TD
+
+    A[Fruit Image<br/>(Strawberry / Avocado)] --> B[Image-to-Text<br/>(ChatGPT)]
+    B --> C[Text Extraction + Chunking]
+    C --> D[Vector Embeddings<br/>(AWS Bedrock)]
+    D --> E[ChromaDB]
+
+    E --> F[Similarity Search]
+    F --> G[Relevant Chunks]
+    G --> H[AWS Bedrock LLM<br/>(RAG)]
+    H --> I[Answer + Sources]
+
+    subgraph User Interaction
+        J[User Question] --> F
+    end
+
 ```
 
 
