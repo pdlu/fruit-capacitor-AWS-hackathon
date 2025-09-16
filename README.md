@@ -146,22 +146,23 @@ python-dotenv>=1.0.0
 
 ### 🔒 Security Notes
 
-    Documents/images processed locally before cloud inference
+* Documents/images processed locally before cloud inference
 
-    AWS IAM roles should have least-privilege Bedrock access
+* AWS IAM roles should have least-privilege Bedrock access
 
-    Consider data sensitivity when uploading real-world datasets
-
+* Consider data sensitivity when uploading real-world datasets
+  
 ### 🚀 Deployment Options
-
+```
     Local Development: Run with Streamlit
 
     AWS EC2: Deploy on cloud instance with IAM role
 
     Docker: Containerize and deploy
-
+```
 ### Example Dockerfile:
 
+```
 FROM python:3.9-slim
 WORKDIR /app
 COPY requirements.txt .
@@ -169,14 +170,14 @@ RUN pip install -r requirements.txt
 COPY . .
 EXPOSE 8501
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
-
+```
 ### 🙏 Acknowledgments
 
-    AWS Bedrock for embeddings + LLMs
+* AWS Bedrock for embeddings + LLMs
 
-    LangChain for orchestration
+* LangChain for orchestration
 
-    ChromaDB for vector storage
+* ChromaDB for vector storage
 
-    Streamlit for web UI
+* Streamlit for web UI
 
