@@ -1,5 +1,8 @@
 # 🍓🥑 Fruits Capacitor  
 *Sacramento’s First AWS Hackathon Project*  
+*"Here in the Central Valley, we are surrounded by farmland from wine grapes to strawberries, Sacramento is the ideal region for Farming. What if we could help our great farmers, what if we could make their lives simpler? Introducing The Fruit Capacitor! We are going to use the power of the fruit, to supercharge our AI model and help farmers and other consumers tell if their fruit is safe to consume or sell to clients. 
+"*
+
 
 An **AI-powered fruit ripeness detection system** that classifies fruit images (starting with strawberries and avocados) and builds a scalable **knowledgebase for real-time freshness monitoring**. Designed with **AWS Bedrock, LangChain, ChromaDB, and Streamlit**, the system helps **farmers, distributors, and retailers** reduce waste and optimize crop quality.  
 
