@@ -1,0 +1,255 @@
+Stage 1
+FRUIT: Unknown Green Fruit
+JSON: {"Name": "Unknown Green Fruit", "Shape": "Round, slightly uneven", "Color": "Green with dark
+brown patches", "Texture": "Rough, patchy, shiny in places", "HasStem": false, "Defects": "Large brown
+spots and discoloration", "GeneralImpression": "Unripe fruit with some damage/decay starting"}
+Stage 2
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped, slightly elongated", "Color": "Pale
+cream-yellow", "Texture": "Smooth surface with visible seeds", "HasStem": true, "Defects": "None
+visible", "GeneralImpression": "Underripe strawberry, firm and pale"}
+Stage 3
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped", "Color": "Yellowish-white, glossy",
+"Texture": "Smooth, seeds darkening", "HasStem": true, "Defects": "Slight browning near seeds",
+"GeneralImpression": "Approaching ripeness, shinier"}
+Stage 4
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Short and rounded", "Color": "Pale yellow with darker
+seeds", "Texture": "Glossy, smooth", "HasStem": true, "Defects": "Minor browning around seeds",
+"GeneralImpression": "Later ripening stage, softer"}
+Stage 5
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Irregular, slightly flattened", "Color": "Yellow-cream with
+faint reddish tint", "Texture": "Soft, uneven", "HasStem": true, "Defects": "Deformities and minor drying",
+"GeneralImpression": "Past peak firmness; edible but imperfect"}
+Stage 6
+FRUIT: Unknown Green Fruit
+JSON: {"Name": "Unknown Green Fruit", "Shape": "Round", "Color": "Green with black/brown blotches",
+"Texture": "Rough, uneven, shiny", "HasStem": false, "Defects": "Heavy dark spots, signs of rot",
+"GeneralImpression": "Likely spoiled or damaged"}
+Stage 7
+FRUIT: Unknown Green Fruit
+JSON: {"Name": "Unknown Green Fruit", "Shape": "Round, uneven", "Color": "Bright green with dark
+areas", "Texture": "Wrinkled and rough", "HasStem": false, "Defects": "Dark blotches",
+"GeneralImpression": "Overripe/deteriorating"}
+Stage 8
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded with pointed end", "Color": "Creamy yellow
+with golden tint", "Texture": "Smooth, firm", "HasStem": true, "Defects": "Tiny specks",
+"GeneralImpression": "Mid ripeness, edible"}
+Stage 9
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Flattened, irregular", "Color": "Yellow-cream with brown
+specks", "Texture": "Soft, uneven surface", "HasStem": true, "Defects": "Visible deformities",
+"GeneralImpression": "Ripening but imperfect"}
+
+
+Stage 10
+FRUIT: Unknown Dark Fruit/Seed
+JSON: {"Name": "Dark Dried Fruit/Seed", "Shape": "Teardrop, shriveled", "Color": "Dark brown to
+black", "Texture": "Wrinkled, dry", "HasStem": false, "Defects": "Surface cracks, heavy shriveling",
+"GeneralImpression": "Fully overripe or dried"}
+Stage 11
+FRUIT: Avocado
+JSON: {"Name": "Avocado", "Shape": "Round, slightly oval", "Color": "Dark green to black", "Texture":
+"Bumpy, firm skin", "HasStem": false, "Defects": "None significant", "GeneralImpression": "Ripening
+avocado, skin darkening"}
+Stage 12
+FRUIT: Avocado
+JSON: {"Name": "Avocado", "Shape": "Oval, round edges", "Color": "Dark purple-brown with patches of
+green", "Texture": "Bumpy, firm", "HasStem": false, "Defects": "Scratches/light scars",
+"GeneralImpression": "Ripening with minor blemishes"}
+Stage 13
+FRUIT: Avocado
+JSON: {"Name": "Avocado", "Shape": "Oval, tapered bottom", "Color": "Dark brown-black", "Texture":
+"Rough, bumpy", "HasStem": false, "Defects": "Surface scars", "GeneralImpression": "Late ripening,
+nearly ready"}
+Stage 14
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Square-like heart, wider top", "Color": "Cream yellow
+with golden hue", "Texture": "Glossy, even seeds", "HasStem": true, "Defects": "Slight shape deformity",
+"GeneralImpression": "Mid ripeness, firm but sweet"}
+Stage 15
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded with ridge on one side", "Color": "Cream
+yellow with faint pink tint", "Texture": "Smooth, shiny", "HasStem": true, "Defects": "Small imperfections
+near seeds", "GeneralImpression": "Transitioning to riper stage"}
+Stage 16
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped", "Color": "Yellow with light golden shine",
+"Texture": "Glossy, visible seeds", "HasStem": true, "Defects": "Minor speckling", "GeneralImpression":
+"Edible, close to peak"}
+Stage 17
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Round and plump", "Color": "Cream yellow with slight
+blush", "Texture": "Smooth, glossy", "HasStem": true, "Defects": "None visible", "GeneralImpression":
+"Approaching full ripeness"}
+Stage 18
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped, slightly elongated", "Color": "Creamy
+with red blush developing", "Texture": "Smooth with darker seeds", "HasStem": true, "Defects": "None",
+"GeneralImpression": "Mid■to■late ripening; color developing"}
+
+
+Stage 19
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded heart", "Color": "Pale pink with red areas
+forming", "Texture": "Glossy, softening", "HasStem": true, "Defects": "Small dents",
+"GeneralImpression": "Ripening further, sweeter expected"}
+Stage 20
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded heart", "Color": "Blush pink with darker
+seeds", "Texture": "Smooth and glossy", "HasStem": true, "Defects": "Uneven coloring",
+"GeneralImpression": "Very close to peak sweetness"}
+
+
+Stage 21
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded heart, angled view", "Color": "Yellow with faint
+pink tint", "Texture": "Smooth with visible seeds", "HasStem": true, "Defects": "Minor discoloration",
+"GeneralImpression": "Early ripening; mostly pale"}
+Stage 22
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Oval and elongated", "Color": "Yellowish■cream",
+"Texture": "Smooth, glossy", "HasStem": false, "Defects": "None", "GeneralImpression": "Underripe,
+firm stage"}
+Stage 23
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped, plump", "Color": "Yellow with red blush at
+bottom", "Texture": "Glossy, shiny surface", "HasStem": true, "Defects": "Leaf damage visible",
+"GeneralImpression": "Ripening from bottom up"}
+Stage 24
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Elongated heart", "Color": "Yellow base with red
+patches", "Texture": "Glossy, firm", "HasStem": true, "Defects": "Minor dry leaves",
+"GeneralImpression": "Transitioning towards ripeness"}
+Stage 25
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Narrow cone-like heart", "Color": "Yellow with central
+red streak", "Texture": "Glossy, shiny seeds", "HasStem": true, "Defects": "None visible",
+"GeneralImpression": "Ripening in streaks"}
+Stage 26
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Pointed heart", "Color": "Yellow with pink blush",
+"Texture": "Glossy, smooth", "HasStem": true, "Defects": "None", "GeneralImpression": "Gradual red
+coloration"}
+Stage 27
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped", "Color": "Pinkish with red base",
+"Texture": "Glossy, softening", "HasStem": true, "Defects": "None", "GeneralImpression": "Ready-to-eat
+approaching"}
+Stage 28
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded heart", "Color": "Yellow■pink blend",
+"Texture": "Glossy, smooth", "HasStem": true, "Defects": "Dark speck on side", "GeneralImpression":
+"Mid ripening, minor imperfection"}
+Stage 29
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart, plump bottom", "Color": "Pink with patches of
+white", "Texture": "Smooth and glossy", "HasStem": true, "Defects": "Minor leaf drying",
+"GeneralImpression": "Nearly peak flavor"}
+
+
+Stage 30
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Round heart, flattened", "Color": "Pale with pink
+patches", "Texture": "Glossy, soft", "HasStem": true, "Defects": "Leaf browning", "GeneralImpression":
+"Late ripening; sweet"}
+Stage 31
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Conical", "Color": "Yellow with faint pink blush",
+"Texture": "Smooth with seeds", "HasStem": true, "Defects": "None", "GeneralImpression": "Early
+ripening"}
+Stage 32
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped", "Color": "Pale yellow", "Texture":
+"Glossy and firm", "HasStem": true, "Defects": "None", "GeneralImpression": "Unripe"}
+Stage 33
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Rounded", "Color": "Yellow■green", "Texture": "Firm
+and shiny", "HasStem": true, "Defects": "None", "GeneralImpression": "Very unripe"}
+Stage 34
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Long heart", "Color": "Light yellow", "Texture": "Glossy",
+"HasStem": true, "Defects": "Minor spots", "GeneralImpression": "Not yet ripe"}
+Stage 35
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart-shaped", "Color": "Light pinkish yellow",
+"Texture": "Firm and shiny", "HasStem": true, "Defects": "None", "GeneralImpression": "Transitioning
+stage"}
+Stage 36
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Triangular", "Color": "Yellow with slight red tint",
+"Texture": "Glossy", "HasStem": true, "Defects": "None", "GeneralImpression": "Ripening"}
+Stage 37
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Oval", "Color": "Pale yellow with slight red", "Texture":
+"Firm", "HasStem": true, "Defects": "None", "GeneralImpression": "Ripening process"}
+Stage 38
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Heart", "Color": "Yellow with blush", "Texture": "Smooth
+with seeds", "HasStem": true, "Defects": "None", "GeneralImpression": "Ripening well"}
+Stage 39
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Triangular", "Color": "Yellowish■red", "Texture":
+"Glossy", "HasStem": true, "Defects": "Minor blemish", "GeneralImpression": "Almost ripe"}
+
+
+Stage 40
+FRUIT: Avocado
+JSON: {"Name": "Avocado", "Shape": "Oval", "Color": "Dark brown■black", "Texture": "Rough and
+wrinkled", "HasStem": false, "Defects": "Wrinkles and rough patches", "GeneralImpression": "Overripe
+avocado"}
+
+
+Stage 41
+FRUIT: Strawberry (White)
+JSON: {"Name": "White Strawberry", "Shape": "Conical, low angle", "Color": "Cream with faint top
+blush", "Texture": "Glossy with raised seeds", "HasStem": true, "Defects": "None", "GeneralImpression":
+"Underripe with slight blush"}
+Stage 42
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Oval", "Color": "Dark brown/black", "Texture": "Rough,
+hardened", "HasStem": false, "Defects": "Surface cracks/abrasions", "GeneralImpression": "Dry seed,
+weathered"}
+Stage 43
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Rounded oval", "Color": "Blackish brown", "Texture":
+"Rough, pitted", "HasStem": false, "Defects": "Ridges and dents", "GeneralImpression": "Old,
+desiccated pit"}
+Stage 44
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Egg-shaped", "Color": "Dark brown", "Texture":
+"Wrinkled, coarse", "HasStem": false, "Defects": "Scuffs and chips", "GeneralImpression": "Very dry
+seed"}
+Stage 45
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Pointed oval", "Color": "Brown-black", "Texture":
+"Textured, uneven", "HasStem": false, "Defects": "Scratches", "GeneralImpression": "Aged seed"}
+Stage 46
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Flattened oval", "Color": "Dark brown with dusty
+areas", "Texture": "Coarse, matte", "HasStem": false, "Defects": "Large blemishes",
+"GeneralImpression": "Pressed/flattened side visible"}
+Stage 47
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Bulbous oval", "Color": "Brown-black", "Texture":
+"Rough", "HasStem": false, "Defects": "Uneven surface", "GeneralImpression": "Hardened seed"}
+Stage 48
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Pointed oval", "Color": "Brown with lighter patches",
+"Texture": "Rough, patchy", "HasStem": false, "Defects": "Color variation, abrasions",
+"GeneralImpression": "Dry advanced seed"}
+Stage 49
+FRUIT: Avocado Pit
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Low, flattened dome", "Color": "Dark brown",
+"Texture": "Rough, grainy", "HasStem": false, "Defects": "Weather cracks", "GeneralImpression":
+"Rugged late-stage"}
+Stage 50
+FRUIT: Avocado Pit
+
+
+JSON: {"Name": "Avocado Pit (dried)", "Shape": "Flattened dome", "Color": "Brown with lighter edge",
+"Texture": "Dry, rough", "HasStem": false, "Defects": "Wear on edges", "GeneralImpression": "Final
+dried form"}
