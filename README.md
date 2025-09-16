@@ -187,4 +187,5 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0
 * Streamlit for web UI
 
 ## Contact
-* phdlu.8@gmail.com
+* **Email:** phdlu.8@gmail.com
+* **Linkedin:**  www.linkedin.com/in/phuclu
